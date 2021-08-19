@@ -46,7 +46,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-8">
-            <form name="submit-to-google-sheet">
+            <div for-name="submit-to-google-sheet">
             
               <!-- nama -->
               <div class="mb-3">
@@ -93,12 +93,40 @@
                   <option value="5">5 LUSIN</option>
                 </select>
                 </div>
+              </br>
 
                 <!-- ukuran -->
+                <section id="order">
+                  <div class="container">
+                    <div class="row text-center mb-3">
+                      <div class="col">
+                        <h2>Plih Ukuran</h2>
+                      </div>
+                    </div>
+                  
+
+                <!-- M -->
                 <div class="mb-3">
-                  <label for="ukur" class="form-label">ukuran</label>
-                  <textarea name="ukur" class="form-control" id="alamat" rows="3"Required></textarea>
-                  <label for="ukur" class="form-label">*contoh M=1,L=2</label>
+                  <label for="m" class="form-label">M</label>
+                  <input name="m" type="m" class="form-control" id="m" aria-describedby="m"Required />
+                </div>
+
+                <!-- L -->
+                <div class="mb-3">
+                  <label for="l" class="form-label">L</label>
+                  <input name="l" type="l" class="form-control" id="l" aria-describedby="l"Required />
+                </div>
+
+                <!-- XL -->
+                <div class="mb-3">
+                  <label for="xl" class="form-label">XL</label>
+                  <input name="xl" type="xl" class="form-control" id="xl" aria-describedby="xl"Required />
+                </div>
+
+                <!-- XXL -->
+                <div class="mb-3">
+                  <label for="xxl" class="form-label">XXL</label>
+                  <input name="xxl" type="xxl" class="form-control" id="xxl" aria-describedby="xxl"Required />
                 </div>
 
                  <!-- alamat -->
